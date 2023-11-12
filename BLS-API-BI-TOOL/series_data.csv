@@ -1,0 +1,45 @@
+blsid,title,is_adjusted
+CEU0800000003,"National Employment, Hours, and Earnings",U
+EES10140001,"National Employment, Hours, and Earnings (SIC basis)",S
+SMU19197802023800001,"State and Area Employment, Hours, and Earnings",U
+SAS0800002000011,"State and Area Employment, Hours, and Earnings (SIC basis)",S
+ENU04013105111150,State and County Employment and Wages from Quarterly Census of Employment and Wages,U
+EWU040131050A0115,"State and County Employment and Wages from Quarterly Census of Employment and Wages, 1997-2000 (SIC basis)",S
+BDS0000000000000000110101LQ5,Business Employment Dynamics,S
+LAUCN281070000000003,Local Area Unemployment Statistics,U
+MLUMS00NN0001003,Mass Layoff Statistics,U
+JTU110099000000000HIL,Job Openings and Labor Turnover Survey,U
+JLU00000000HIL,Job Openings and Labor Turnover Survey (SIC basis),U
+GGUQO100000000000050010L,Green Goods and Services,U
+APU000070111,Average Price Data,U
+CUUR0000SA0L1E,Consumer Price Index - All Urban Consumers,U
+CWSR0000SA111211,Consumer Price Index - Urban Wage Earners and Clerical Workers,S
+MUSR0000SA111211,Consumer Price Index - All Urban Consumers (Old Series),S
+MWSR0000SA111211,Consumer Price Index - Urban Wage Earners and Clerical Workers (Old Series),S
+LIUR0000SL00019,Department Store Inventory Price Index,U
+SUUR0000SA0,Chained CPI-All Urban Consumers,U
+PCU22112222112241,Producer Price Index Industry Data - Current Series,U
+WPS141101,Producer Price Index Commodity Data - Current Series,S
+TUU10101AA01011987,American Time Use Survey,U
+CXUMENBOYSLB0101M,Consumer Expenditure Survey,U
+NBU20530000000000033030,National Benefits (NAICS and SOC),U
+CIS1010000000000I,Employment Cost Index (NAICS and SOC),S
+CMU1010000100000P,Employer Costs for Employee Compensation (NAICS and SOC),U
+WMU40000011020000004130992500,Modeled Wage Estimates (NAICS and SOC),U
+PRS85006032,Major Sector Productivity and Costs,S
+MPU4900012,Major Sector Total Factor Productivity,U
+IPUBN212___W000000000,Industry Productivity,U
+ISU00X00000060N00,Occupational Injuries and Illnesses - industry data (2014 forward),U
+FWU00X00000080M70,Census of Fatal Occupational Injuries (2011 forward),U
+FIU00X00000080N00,Census of Fatal Occupational Injuries (2003 - 2010),U
+CFU00000080,Census of Fatal Occupational Injuries (1992 - 2002),U
+CSUSDX031XXX6E000,Nonfatal cases involving days away from work: selected characteristics (2011 forward),U
+CHUSDX031XXX6E000,Nonfatal cases involving days away from work: selected characteristics (2003 - 2010),U
+HCU0012123N,Nonfatal cases involving days away from work: selected characteristics (2002),U
+CDUDMM10073,Nonfatal cases involving days away from work: selected characteristics (1992 - 2001),U
+HSU09020018,Occupational injuries and illnesses: industry data (pre-1989),U
+SHU00000034,Occupational injuries and illnesses: industry data (1989 - 2001),U
+SIU00000001,Occupational injuries and illnesses: industry data (2002),U
+IIU00X00000060N00,Occupational Injuries and Illnesses - industry data (2003 - 2013),U
+ORUV1000000000001029,Occupational Requirements Survey,U
+EIUCOCANMANU,Import/Export Price Indexes,U

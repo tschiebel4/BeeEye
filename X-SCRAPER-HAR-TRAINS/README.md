@@ -9,14 +9,14 @@ I've recently moved into a townhouse close to train tracks, not realizing the fr
 Right click anywhere on page -> inspect -> now its recording -> go to network tab -> export har file
 https://www.youtube.com/watch?v=LcqVDfueb8g&t=229s
 "A HAR (HTTP Archive) file is a JSON-formatted log of a web browser's interactions with a site. It records the web browser's requests and responses in detail, including URLs, headers, and timing information. This makes HAR files incredibly useful for understanding the behavior of web pages and for manual web scraping when API access is not available or feasible. 
-	--In this project, I used a HAR file to capture data from the 'NoCo Train Alerts' social media page. 
-	--This process involved navigating the page while the browser recorded all the data exchanges. 
-	--The resulting HAR file provided a comprehensive snapshot of the page's data, which I then processed to extract relevant information about train schedules."
+--In this project, I used a HAR file to capture data from the 'NoCo Train Alerts' social media page. 
+--This process involved navigating the page while the browser recorded all the data exchanges. 
+--The resulting HAR file provided a comprehensive snapshot of the page's data, which I then processed to extract relevant information about train schedules."
 
 **3. Python Script**
-	--Import Libraries: The script begins by importing necessary libraries: json for working with JSON data, and pandas (as pd) for data manipulation.
-	--Defining extract_tweets_from_har Function: This function loads the HAR file, iterates through its entries, and extracts tweet data, handling potential JSON structure variations and decoding errors.
-	--Defining json_extract Helper Function: A recursive function that fetches values from nested JSON based on a specified key.
+--Import Libraries: The script begins by importing necessary libraries: json for working with JSON data, and pandas (as pd) for data manipulation.
+--Defining extract_tweets_from_har Function: This function loads the HAR file, iterates through its entries, and extracts tweet data, handling potential JSON structure variations and decoding errors.
+--Defining json_extract Helper Function: A recursive function that fetches values from nested JSON based on a specified key.
 --Defining tweets_to_dataframe Function: Converts the extracted tweets into a Pandas DataFrame and adds a binary flag to indicate the presence of the word "Train" in the tweet.
 --Executing the Script: The script extracts tweets from the HAR file, converts them to a DataFrame, and exports the data to a CSV file for further analysis.
 

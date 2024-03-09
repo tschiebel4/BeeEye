@@ -14,11 +14,11 @@ https://www.youtube.com/watch?v=LcqVDfueb8g&t=229s
 	--The resulting HAR file provided a comprehensive snapshot of the page's data, which I then processed to extract relevant information about train schedules."
 
 **3. Python Script**
-Import Libraries: The script begins by importing necessary libraries: json for working with JSON data, and pandas (as pd) for data manipulation.
-Defining extract_tweets_from_har Function: This function loads the HAR file, iterates through its entries, and extracts tweet data, handling potential JSON structure variations and decoding errors.
-Defining json_extract Helper Function: A recursive function that fetches values from nested JSON based on a specified key.
-Defining tweets_to_dataframe Function: Converts the extracted tweets into a Pandas DataFrame and adds a binary flag to indicate the presence of the word "Train" in the tweet.
-Executing the Script: The script extracts tweets from the HAR file, converts them to a DataFrame, and exports the data to a CSV file for further analysis.
+	--Import Libraries: The script begins by importing necessary libraries: json for working with JSON data, and pandas (as pd) for data manipulation.
+	--Defining extract_tweets_from_har Function: This function loads the HAR file, iterates through its entries, and extracts tweet data, handling potential JSON structure variations and decoding errors.
+	--Defining json_extract Helper Function: A recursive function that fetches values from nested JSON based on a specified key.
+--Defining tweets_to_dataframe Function: Converts the extracted tweets into a Pandas DataFrame and adds a binary flag to indicate the presence of the word "Train" in the tweet.
+--Executing the Script: The script extracts tweets from the HAR file, converts them to a DataFrame, and exports the data to a CSV file for further analysis.
 
 **4. ChatGPT Prompts**
 Make sure to mention that I provided a targeted sample from the HAR file

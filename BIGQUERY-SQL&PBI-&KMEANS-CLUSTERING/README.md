@@ -1,6 +1,6 @@
 **Project Name:** Search Trends Tool
 
-**Description:** Dynamic tool with refreshable data. Leverages a blended data model of Power BI 'Google Big Query' data source connection and Python data source connection that layers a column for k-means cluster (MiniBatchMeans) into Big Query pull of Wikipedia page title and their respective view count for time-period in-scope.
+**Description:** Dynamic tool with refreshable data. Leverages a blended data model of Power BI 'Google Big Query' data source connection and Python data source connection that layers a column for k-means cluster (MiniBatchMeans) into Big Query pull of Wikipedia page title and their respective view count for time-period in-scope. Leverage BigQuery public datasets and open source python packages.
 
 **Installation Instructions:** Download pbix file. Adjust Python code to reference your own Google application credentials. Remove 'FilteredRows' steps in power query editor to unlock full scope of each dataset (limits were applied to make the file small enough to upload here)
 

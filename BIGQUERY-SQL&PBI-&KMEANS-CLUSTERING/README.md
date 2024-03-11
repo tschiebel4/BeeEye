@@ -4,6 +4,6 @@
 
 **Installation Instructions:** Download pbix file. Adjust Python code to reference your own Google application credentials. Remove 'FilteredRows' steps in power query editor to unlock full scope of each dataset (limits were applied to make the file small enough to upload here)
 
-**Usage:** This is a refreshable model that allow you to keep a finger on the pulse of rising search trends in both Google and Wikipedia.
+**Usage:** This is a refreshable model that allow you to keep a finger on the pulse of rising search trends in both Google and Wikipedia. The Wikipedia K-means clusters utilize natural language processing and unsuporvised machine learning to categorize the titles (The dataset does not inherently come with a category dimension); which types of titles get the most views? (ex: entertainment vs education).
 
 **Contact Information:** troy.schiebel@gmail.com
